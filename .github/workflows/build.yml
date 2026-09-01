@@ -1,6 +1,9 @@
 name: Build Judo Masters APK
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
